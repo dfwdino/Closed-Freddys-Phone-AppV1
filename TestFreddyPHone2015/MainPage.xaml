@@ -44,21 +44,18 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
-            <Button x:Name="Howling" Content="Howling" HorizontalAlignment="Left" VerticalAlignment="Top" Height="142" Width="155" Click="Howling_Click"/>
-            <Button x:Name="EvilLaugh" Content="Evil Laugh" HorizontalAlignment="Left" Margin="160,0,0,0" VerticalAlignment="Top" Height="142" Width="145" Click="button1_Click"/>
-            <Image x:Name="image" HorizontalAlignment="Left" Height="139" Margin="310,17,0,0" VerticalAlignment="Top" Width="136" Source="/Images/20151001_212539_972.jpg" Tap="ImageTap"/>
-            <Button x:Name="button" Content="Song" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Click="button_Click" Height="97" Width="145"/>
-            <Image x:Name="OneFish" HorizontalAlignment="Left" Height="100" Margin="169,156,0,0" VerticalAlignment="Top" Width="100" Source="/Images/onefish-icon.jpg" Tap="OneFishTap"/>
-            <Image x:Name="Family" HorizontalAlignment="Left" Height="100" Margin="332,156,0,0" VerticalAlignment="Top" Width="100" Source="Images/family-portrait.gif" Tap="FamilyTap"/>
-            <Image x:Name="trippy" HorizontalAlignment="Left" Height="100" Margin="28,264,0,0" VerticalAlignment="Top" Width="100" Source="Images/0004-tumblr_m02e858vpQ1r2gmc8o4_250.gif" Tap="trippyTap"/>
-            <Image x:Name="Simpons" HorizontalAlignment="Left" Height="100" Margin="291,266,0,0" VerticalAlignment="Top" Width="100" Source="/Images/1277253176290.jpg" Tap="Simpons_Tap"/>
-            <Image x:Name="space2" HorizontalAlignment="Left" Height="100" Margin="149,261,0,0" VerticalAlignment="Top" Width="100" Source="/Images/1277253164628.jpg" Tap="space2tab"/>
-            <Image x:Name="space" HorizontalAlignment="Left" Height="100" Margin="279,403,0,0" VerticalAlignment="Top" Width="100" Source="/Images/6bb038850338c3f9babb7da8a2d10eb8_20100523231412_720.jpg" Tap="SpaceTap"/>
-            <Image x:Name="life" HorizontalAlignment="Left" Height="100" Margin="149,403,0,0" VerticalAlignment="Top" Width="100" Source="/Images/34Bum.jpg" Tap="lifetap"/>
-            <Image x:Name="superman" HorizontalAlignment="Left" Height="100" Margin="28,403,0,0" VerticalAlignment="Top" Width="100" Source="/Images/1301.jpg" Tap="Supermantab"/>
-            <Image x:Name="SimpltionCity" HorizontalAlignment="Left" Height="100" Margin="149,519,0,0" VerticalAlignment="Top" Width="100" Source="/Images/1277253203389.jpg" Tap="Scity"/>
-            <Image x:Name="basicImage" HorizontalAlignment="Left" Height="100" Margin="28,519,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/Tiles/IconicTileMediumLarge.png" Tap="BasicImageTap"/>
-            <Button x:Name="WhatColor" Content="Black" HorizontalAlignment="Left" Margin="271,519,0,0" VerticalAlignment="Top" Click="WhatColorClick"/>
+            <Button x:Name="Howling" Content="Howling" HorizontalAlignment="Left" VerticalAlignment="Top" Height="78" Width="155" Click="Howling_Click"/>
+            <Button x:Name="EvilLaugh" Content="Evil Laugh" HorizontalAlignment="Left" Margin="160,0,0,0" VerticalAlignment="Top" Height="78" Width="145" Click="button1_Click"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="144" Margin="19,89,0,0" VerticalAlignment="Top" Width="181" Source="/Images/20151001_212539_972.jpg" Tap="ImageTap"/>
+            <Button x:Name="button" Content="Song" HorizontalAlignment="Left" Margin="305,0,0,0" VerticalAlignment="Top" Click="button_Click" Height="80" Width="145"/>
+            <Image x:Name="OneFish" HorizontalAlignment="Left" Height="126" Margin="279,238,0,0" VerticalAlignment="Top" Width="153" Source="/Images/onefish-icon.jpg" Tap="OneFishTap"/>
+            <Image x:Name="Family" HorizontalAlignment="Left" Height="144" Margin="255,89,0,0" VerticalAlignment="Top" Width="178" Source="Images/family-portrait.gif" Tap="FamilyTap"/>
+            <Image x:Name="trippy" HorizontalAlignment="Left" Height="123" Margin="19,238,0,0" VerticalAlignment="Top" Width="118" Source="Images/0004-tumblr_m02e858vpQ1r2gmc8o4_250.gif" Tap="trippyTap"/>
+            <Image x:Name="space" HorizontalAlignment="Left" Height="141" Margin="255,519,0,0" VerticalAlignment="Top" Width="178" Source="/Images/6bb038850338c3f9babb7da8a2d10eb8_20100523231412_720.jpg" Tap="SpaceTap"/>
+            <Image x:Name="life" HorizontalAlignment="Left" Height="134" Margin="279,369,0,0" VerticalAlignment="Top" Width="135" Source="/Images/34Bum.jpg" Tap="lifetap"/>
+            <Image x:Name="superman" HorizontalAlignment="Left" Height="134" Margin="28,369,0,0" VerticalAlignment="Top" Width="172" Source="/Images/1301.jpg" Tap="Supermantab"/>
+            <Image x:Name="SimpltionCity" HorizontalAlignment="Left" Height="172" Margin="28,519,0,0" VerticalAlignment="Top" Width="201" Source="/Images/1277253203389.jpg" Tap="Scity"/>
+            <Button x:Name="WhatColor" Content="Black" HorizontalAlignment="Left" Margin="160,251,0,0" VerticalAlignment="Top" Click="WhatColorClick" Height="72"/>
             <Button x:Name="button1" Content="Animal Sounds" HorizontalAlignment="Left" Margin="332,660,0,0" VerticalAlignment="Top" Click="button1_Click_1" FontSize="10"/>
 
 

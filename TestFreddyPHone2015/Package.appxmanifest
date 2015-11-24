@@ -24,6 +24,10 @@
       <Extensions>
         <Extension Category="windows.backgroundTasks" EntryPoint="TestFreddyPHone2015.app">
           <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+            <Task Type="pushNotification" />
+            <m2:Task Type="location" />
             <m3:Task Type="chatMessageNotification" />
           </BackgroundTasks>
         </Extension>
@@ -32,6 +36,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="musicLibrary" />
+    <DeviceCapability Name="microphone" />
   </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">

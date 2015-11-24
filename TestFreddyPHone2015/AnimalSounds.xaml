@@ -19,10 +19,10 @@
             <RowDefinition Height="Auto" MinHeight="25"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="BarbedOwl" Content="Barbed Owl" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="173" Click="BarbedOwl_Click"/>
-        <Button x:Name="NightWolf" Content="Night Wolf" HorizontalAlignment="Left" Margin="283,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="173" Click="NightWolf_Click"/>
-        <Button x:Name="OwlSound" Content="Owl" HorizontalAlignment="Left" Margin="10,546,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="173" Click="OwlSound_Click"/>
-        <Button x:Name="Wolf36" Content="Wolf36" HorizontalAlignment="Left" Margin="283,546,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="173" Click="Wolf36_Click"/>
+        <Button x:Name="BarbedOwl" Content="Barbed Owl" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="236" Click="BarbedOwl_Click"/>
+        <Button x:Name="NightWolf" Content="Night Wolf" HorizontalAlignment="Left" Margin="246,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="210" Click="NightWolf_Click"/>
+        <Button x:Name="OwlSound" Content="Owl" HorizontalAlignment="Left" Margin="10,455,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="226" Click="OwlSound_Click"/>
+        <Button x:Name="Wolf36" Content="Wolf36" HorizontalAlignment="Left" Margin="241,455,0,0" Grid.Row="1" VerticalAlignment="Top" Height="166" Width="215" Click="Wolf36_Click"/>
 
         <StackPanel>
             <MediaElement x:Name="myMediaElement" 
@@ -32,7 +32,9 @@
 
 
         </StackPanel>
-        <Button x:Name="PeekABooColor" Content="Button" HorizontalAlignment="Left" Margin="31,260,0,0" Grid.Row="1" VerticalAlignment="Top" Height="215" Width="425" Click="PeekABooColor_Click"/>
+        <Button x:Name="PeekABooColor" Content="Change Color again" HorizontalAlignment="Left" Margin="21,181,0,0" Grid.Row="1" VerticalAlignment="Top" Height="250" Width="435" Click="PeekABooColor_Click"/>
+        <Button x:Name="Speak" Content="Speak To Me" HorizontalAlignment="Left" Margin="49,639,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Speak_Click"/>
+        <Button x:Name="Main" Click="Main_Click" Content="Color Iamges" HorizontalAlignment="Left" Margin="305,639,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

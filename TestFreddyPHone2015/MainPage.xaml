@@ -44,19 +44,13 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
-            <Button x:Name="Howling" Content="Howling" HorizontalAlignment="Left" VerticalAlignment="Top" Height="78" Width="155" Click="Howling_Click"/>
-            <Button x:Name="EvilLaugh" Content="Evil Laugh" HorizontalAlignment="Left" Margin="160,0,0,0" VerticalAlignment="Top" Height="78" Width="145" Click="button1_Click"/>
-            <Image x:Name="image" HorizontalAlignment="Left" Height="144" Margin="19,89,0,0" VerticalAlignment="Top" Width="181" Source="/Images/20151001_212539_972.jpg" Tap="ImageTap"/>
-            <Button x:Name="button" Content="Song" HorizontalAlignment="Left" Margin="305,0,0,0" VerticalAlignment="Top" Click="button_Click" Height="80" Width="145"/>
-            <Image x:Name="OneFish" HorizontalAlignment="Left" Height="126" Margin="279,238,0,0" VerticalAlignment="Top" Width="153" Source="/Images/onefish-icon.jpg" Tap="OneFishTap"/>
-            <Image x:Name="Family" HorizontalAlignment="Left" Height="144" Margin="255,89,0,0" VerticalAlignment="Top" Width="178" Source="Images/family-portrait.gif" Tap="FamilyTap"/>
-            <Image x:Name="trippy" HorizontalAlignment="Left" Height="123" Margin="19,238,0,0" VerticalAlignment="Top" Width="118" Source="Images/0004-tumblr_m02e858vpQ1r2gmc8o4_250.gif" Tap="trippyTap"/>
-            <Image x:Name="space" HorizontalAlignment="Left" Height="141" Margin="255,519,0,0" VerticalAlignment="Top" Width="178" Source="/Images/6bb038850338c3f9babb7da8a2d10eb8_20100523231412_720.jpg" Tap="SpaceTap"/>
-            <Image x:Name="life" HorizontalAlignment="Left" Height="134" Margin="279,369,0,0" VerticalAlignment="Top" Width="135" Source="/Images/34Bum.jpg" Tap="lifetap"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="178" Margin="10,10,0,0" VerticalAlignment="Top" Width="219" Source="/Images/20151001_212539_972.jpg" Tap="ImageTap"/>
+            <Button x:Name="button" Content="Song" HorizontalAlignment="Left" Margin="244,369,0,0" VerticalAlignment="Top" Click="button_Click" Height="107" Width="202"/>
+            <Image x:Name="Family" HorizontalAlignment="Left" Height="178" Margin="244,10,0,0" VerticalAlignment="Top" Width="189" Source="Images/family-portrait.gif" Tap="FamilyTap" RenderTransformOrigin="0.52,-0.115"/>
+            <Image x:Name="space" HorizontalAlignment="Left" Height="141" Margin="260,508,0,0" VerticalAlignment="Top" Width="186" Source="/Images/6bb038850338c3f9babb7da8a2d10eb8_20100523231412_720.jpg" Tap="SpaceTap"/>
             <Image x:Name="superman" HorizontalAlignment="Left" Height="134" Margin="28,369,0,0" VerticalAlignment="Top" Width="172" Source="/Images/1301.jpg" Tap="Supermantab"/>
-            <Image x:Name="SimpltionCity" HorizontalAlignment="Left" Height="172" Margin="28,519,0,0" VerticalAlignment="Top" Width="201" Source="/Images/1277253203389.jpg" Tap="Scity"/>
-            <Button x:Name="WhatColor" Content="Black" HorizontalAlignment="Left" Margin="160,251,0,0" VerticalAlignment="Top" Click="WhatColorClick" Height="72"/>
-            <Button x:Name="button1" Content="Animal Sounds" HorizontalAlignment="Left" Margin="332,660,0,0" VerticalAlignment="Top" Click="button1_Click_1" FontSize="10"/>
+            <Button x:Name="WhatColor" Content="Change Me!!!" HorizontalAlignment="Left" Margin="19,193,0,0" VerticalAlignment="Top" Click="WhatColorClick" Height="151" Width="414"/>
+            <Button x:Name="button1" Content="Animal Sounds" HorizontalAlignment="Left" Margin="62,594,0,0" VerticalAlignment="Top" Click="button1_Click_1" Height="100" Width="193"/>
 
 
         </Grid>
@@ -68,6 +62,7 @@
 
 
         </StackPanel>
+        <Button x:Name="btnGoToTalk" Click="btnGoToTalk_Click" Content="Speak" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,500,0,0" Grid.Row="1" Width="226"/>
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
             account for the System Tray. Set this to 0 (or remove the margin altogether)

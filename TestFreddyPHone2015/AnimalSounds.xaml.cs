@@ -70,7 +70,17 @@ namespace TestFreddyPHone2015
             playsounds("peek-a-boo.mp3");
 
             PeekABooColor.Background = new SolidColorBrush(AllColors[new Random().Next(0, 6)]);
-            PeekABooColor.Content = PeekABooColor.Background.Opacity.ToString();
+            //PeekABooColor.Content = PeekABooColor.Background.Opacity.ToString();
+        }
+
+        private void Main_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+        }
+
+        private void Speak_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/TextToSpeech.xaml", UriKind.Relative));
         }
     }
 }

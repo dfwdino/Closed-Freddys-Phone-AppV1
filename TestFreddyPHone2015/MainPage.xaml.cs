@@ -154,5 +154,10 @@ namespace TestFreddyPHone2015
         {
             NavigationService.Navigate(new Uri("/AnimalSounds.xaml", UriKind.Relative));
         }
+
+        private void btnGoToTalk_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/TextToSpeech.xaml", UriKind.Relative));
+        }
     }
 }

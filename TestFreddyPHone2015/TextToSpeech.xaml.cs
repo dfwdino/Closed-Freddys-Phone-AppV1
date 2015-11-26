@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.Threading.Tasks;
 using Windows.Phone.Speech.Synthesis;
+using System.Runtime.ExceptionServices;
 
 namespace FreddysPhoneSoundApp
 {
@@ -29,15 +30,36 @@ namespace FreddysPhoneSoundApp
 
 
         public static async Task Speak(string text)
+        {
+            ExceptionDispatchInfo capturedException = null;
 
-        {   using (var speech = new SpeechSynthesizer())
+            using (var speech = new SpeechSynthesizer())
+            {
+                try
+                {
+                    await speech.SpeakTextAsync(text);
+                }
+                catch (Exception ex)
+                {
 
-            {   
-                await speech.SpeakTextAsync(text);
-             
+                    capturedException = ExceptionDispatchInfo.Capture(ex);
+                }
+
+                if (capturedException != null)
+                {
+                    MessageBox.Show(capturedException.SourceException.Message);
+
+                    //capturedException.Throw();
+                }
+
+
             }
 
         }
+
+
+
+
 
         private async void button_Click(object sender, RoutedEventArgs e)
         {
